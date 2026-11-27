@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-import nids_core as nc
+import MAIN as nc
 
 DATA_DIR = Path(__file__).parent / "data"
 TRAIN_PATH = DATA_DIR / "KDDTrain+.txt"
